@@ -4,4 +4,9 @@ fonctionnalitées :
     > score 
     > Timer 
     > animations (ex : quand il trouve un objet +1 en 2D qui s 'affiche au dessus de l objet trouvé ) , entoure l objet trouvé par un broder green 
-    > menu principal : le joueur choisi une image selon le niveau de difficulté  (facile intermediare difficile) 
+    > menu principal (menu.html) : le joueur choisi une image selon le niveau de difficulté  (*facile **intermediare **difficile) 
+
+
+      TODO : travaill en binôme 
+           > menu =>  ludovic + nicolas 
+           > objets cliquable sur l image =>  alex + ayyoub
