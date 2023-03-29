@@ -8,7 +8,7 @@ body {
 #first_picture {
     width: 610px;
     text-align: center;
-    margin: 0 auto;
+    margin: 0 auto; 
 }
 
 canvas {
