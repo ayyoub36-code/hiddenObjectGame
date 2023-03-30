@@ -1,0 +1,137 @@
+body {
+
+    /* background: black; */
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.canvaa {
+    text-align: center;
+    margin-left: 30%;
+    margin-top: 5px;
+    width: 60%;
+    height: 700px;
+    /* border: 1px solid silver; */
+    
+}
+
+#second_picture{
+    background-image: url('img_game/pic_meduim1.webp');
+    background-repeat: no-repeat, repeat;
+    background-size: cover
+}
+
+#hippocampe {
+    -webkit-clip-path: polygon(29% 45%, 39% 45%, 39% 68%, 29% 68%);
+    clip-path: polygon(29% 45%, 39% 45%, 39% 68%, 29% 68%);
+    /*background-color: blue;*/
+    left: 722px;
+    top: 245px;
+    position: absolute;
+    width: 190px;
+    height: 170px;
+}
+
+#heart {
+    -webkit-clip-path: polygon(53% 67%, 60% 64%, 62% 71%, 53% 83%, 42% 71%, 45% 64%);
+    clip-path: polygon(53% 67%, 60% 64%, 62% 71%, 53% 83%, 42% 71%, 45% 64%);     
+    /*background-color: blue;*/
+    left: 910px;
+    top: 88px;
+    position: absolute;
+    width: 190px;
+    height: 170px;
+}
+
+#bee {
+    -webkit-clip-path: polygon(13% 86%, 23% 86%, 10% 100%, 0% 100%);
+    clip-path: polygon(13% 86%, 23% 86%, 10% 100%, 0% 100%);  
+    /*background-color: blue;*/
+    left: 742px;
+    top: 62px;
+    position: absolute;
+    width: 190px;
+    height: 170px;
+}
+
+#ancre {
+    -webkit-clip-path: polygon(46% 52%, 56% 73%, 46% 84%, 37% 70%);
+    clip-path: polygon(46% 52%, 56% 73%, 46% 84%, 37% 70%);
+    /*background-color: blue;*/
+    left: 1160px;
+    top: 250px;
+    position: absolute;
+    width: 190px;
+    height: 170px;
+}
+
+
+
+#longue_vue {
+    -webkit-clip-path: polygon(0 96%, 56% 96%, 56% 100%, 0% 100%);
+    clip-path: polygon(0 96%, 56% 96%, 56% 100%, 0% 100%);
+    /*background-color: blue;*/
+    left: 1140px;
+    top: 110px;
+    position: absolute;
+    width: 190px;
+    height: 170px;
+}
+
+
+#icecream {
+    -webkit-clip-path: polygon(50% 84%, 65% 69%, 65% 84%, 58% 91%);
+    clip-path: polygon(50% 84%, 65% 69%, 65% 84%, 58% 91%);
+    /*background-color: blue;*/
+    left: 1140px;
+    top: 330px;
+    position: absolute;
+    width: 190px;
+    height: 170px;
+}
+
+
+#bag {
+    -webkit-clip-path: polygon(44% 48%, 47% 56%, 47% 70%, 31% 70%, 31% 48%);
+    clip-path: polygon(44% 48%, 47% 56%, 47% 70%, 31% 70%, 31% 48%);  
+    /*background-color: blue;*/
+    left: 1093px;
+    top: 210px;
+    position: absolute;
+    width: 190px;
+    height: 170px;
+}
+
+#slime {
+    -webkit-clip-path: polygon(44% 48%, 46% 56%, 38% 59%, 29% 56%, 31% 48%);
+    clip-path: polygon(44% 48%, 46% 56%, 38% 59%, 29% 56%, 31% 48%); 
+    /*background-color: blue;*/
+    left: 940px;
+    top: 340px;
+    position: absolute;
+    width: 190px;
+    height: 170px;
+}
+
+#locomotive {
+    -webkit-clip-path: polygon(4% 85%, 29% 78%, 29% 100%, 0% 100%);
+    clip-path: polygon(4% 85%, 29% 78%, 29% 100%, 0% 100%);
+    /*background-color: blue;*/
+    left: 1400px;
+    top: 310px;
+    position: absolute;
+    width: 190px;
+    height: 170px;
+}
+
+#bell {
+    -webkit-clip-path: polygon(3% 88%, 9% 88%, 12% 100%, 0% 100%);
+    clip-path: polygon(3% 88%, 9% 88%, 12% 100%, 0% 100%);
+    background-color: blue;
+    left: 867px;
+    top: 85px;
+    position: absolute;
+    width: 190px;
+    height: 170px;
+}

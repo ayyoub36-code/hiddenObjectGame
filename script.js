@@ -57,5 +57,14 @@ window.onload = (e) => {
 
 
 
+let objects_2 = ["hippocampe", "coeur", "abeille", "ancre", "longue vue", "glace", "sac", "slime", "locomotive", "cloche"];
+
+document.getElementById('easy_02_id').addEventListener('click', function(){console.log('trouvé');});
+
+
+
+
+
+
 };
 
