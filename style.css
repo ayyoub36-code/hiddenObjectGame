@@ -1,6 +1,5 @@
 body {
-
-    /* background: black; */
+    background: black;
     color: white;
     margin: 0;
     padding: 0;
@@ -18,13 +17,138 @@ body {
     background-size: cover
 }
 
-.easy_01 {
+#easy_01_id {
     -webkit-clip-path: ellipse(19% 7% at 50% 50%);
     clip-path: ellipse(19% 7% at 50% 50%);
-    background-color: blue;
+    /* background-color: blue; */
     left: 545px;
-    top: 510px;
+    top: 515px;
     position: absolute;
     width: 190px;
     height: 170px;
+}
+
+#easy_02_id {
+    -webkit-clip-path: ellipse(19% 7% at 50% 50%);
+    clip-path: ellipse(19% 7% at 50% 50%);
+    /* background-color: blue; */
+    left: 1075px;
+    top: 345px;
+    position: absolute;
+    width: 160px;
+    height: 170px;
+
+}
+
+#easy_03_id {
+    -webkit-clip-path: polygon(26% 98%, 88% 84%, 64% 97%, 43% 100%);
+    clip-path: polygon(26% 98%, 88% 84%, 64% 97%, 43% 100%);
+    left: 1375px;
+    top: 473px;
+    position: absolute;
+    width: 180px;
+    height: 200px;
+}
+
+#easy_04_id {
+    -webkit-clip-path: polygon(61% 73%, 76% 94%, 61% 88%, 36% 89%);
+    clip-path: polygon(61% 73%, 76% 94%, 61% 88%, 36% 89%);
+    left: 1095px;
+    top: 415px;
+    position: absolute;
+    width: 180px;
+    height: 200px;
+
+}
+
+#easy_05_id {
+    -webkit-clip-path: polygon(30% 55%, 19% 35%, 17% 14%, 52% 30%, 90% 12%, 78% 51%, 91% 68%, 93% 89%, 82% 96%, 56% 75%, 23% 95%, 11% 85%);
+    clip-path: polygon(30% 55%, 19% 35%, 17% 14%, 52% 30%, 90% 12%, 78% 51%, 91% 68%, 93% 89%, 82% 96%, 56% 75%, 23% 95%, 11% 85%);
+    left: 1230px;
+    top: 240px;
+    position: absolute;
+    width: 50px;
+    height: 40px;
+
+}
+
+#easy_06_id {
+    -webkit-clip-path: ellipse(11% 20% at 50% 50%);
+    clip-path: ellipse(11% 20% at 50% 50%);
+    left: 855px;
+    top: 475px;
+    position: absolute;
+    width: 130px;
+    height: 200px;
+}
+
+#easy_07_id {
+    -webkit-clip-path: circle(28.0% at 50% 50%);
+    clip-path: circle(28.0% at 50% 50%);
+    left: 1180px;
+    top: 395px;
+    position: absolute;
+    width: 100px;
+    height: 160px;
+}
+
+#easy_08_id {
+    -webkit-clip-path: circle(28.0% at 50% 50%);
+    clip-path: circle(28.0% at 50% 50%);
+    left: 565px;
+    top: 285px;
+    position: absolute;
+    width: 90px;
+    height: 140px;
+}
+
+#easy_09_id {
+    -webkit-clip-path: circle(28.0% at 50% 50%);
+    clip-path: circle(28.0% at 50% 50%);
+    left: 1585px;
+    top: 170px;
+    position: absolute;
+    width: 80px;
+    height: 140px;
+}
+
+#easy_10_id {
+    -webkit-clip-path: ellipse(11% 20% at 50% 50%);
+    clip-path: ellipse(11% 20% at 50% 50%);
+    left: 930px;
+    top: 285px;
+    position: absolute;
+    width: 150px;
+    height: 190px;
+}
+
+.listOfItems {
+    padding: 10px;
+    margin-top: 80px;
+    border: 2px solid rgb(60, 158, 47);
+    border-radius: 10px 10px;
+    width: fit-content;
+    display: inline;
+}
+
+.listOfItems span {
+    padding: 5px;
+    font-weight: bold;
+}
+
+.score {
+    padding: 10px;
+    margin-right: 25px;
+    border: 2px solid rgb(161, 36, 36);
+    border-radius: 10px 10px;
+    width: fit-content;
+    margin-left: 570px;
+    display: inline;
+}
+.congratulation{
+    left: 930px;
+    top: 285px;
+    position: absolute;
+    font-weight:bolder;
+    color: green;
 }
