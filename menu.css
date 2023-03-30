@@ -10,6 +10,7 @@ body {font-family: "Lato", sans-serif;}
   background-color: #111;
   overflow-x: hidden;
   padding-top: 16px;
+  padding-left: 10px;
 }
 
 .sidebar a {
@@ -24,8 +25,10 @@ body {font-family: "Lato", sans-serif;}
   color: #f1f1f1;
 }
 .sidebar a #mini {
-    width: 90%;
-    height: 90%;
+    width: 85%;
+    height: 85%;
+    padding-top: 10px;
+    padding-left: 10px;
 }
 
 .main {
