@@ -10,3 +10,8 @@ fonctionnalitées :
       TODO : travaill en binôme 
            > menu =>  ludovic + nicolas 
            > objets cliquable sur l image =>  alex + ayyoub
+
+
+
+sources : > https://www.cssportal.com/css-clip-path-generator/ 
+          > https://www.xul.fr/ecmascript/div-et-souris.php

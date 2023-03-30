@@ -1,6 +1,6 @@
 body {
-   
-    background: black; 
+
+    /* background: black; */
     color: white;
     margin: 0;
     padding: 0;
@@ -8,8 +8,23 @@ body {
 
 .canvaa {
     text-align: center;
-    margin: 0 auto; 
+    margin-left: 30%;
     margin-top: 5px;
-    width: 50%;
+    width: 60%;
+    height: 700px;
     /* border: 1px solid silver; */
+    background-image: url('img_game/hidden_object_easy1.jpg');
+    background-repeat: no-repeat, repeat;
+    background-size: cover
+}
+
+.easy_01 {
+    -webkit-clip-path: ellipse(19% 7% at 50% 50%);
+    clip-path: ellipse(19% 7% at 50% 50%);
+    background-color: blue;
+    left: 545px;
+    top: 510px;
+    position: absolute;
+    width: 190px;
+    height: 170px;
 }
