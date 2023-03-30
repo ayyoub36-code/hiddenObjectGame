@@ -6,6 +6,11 @@ body {
     padding: 0;
 }
 
+.text-dark_bold{
+    color: black;
+    text-decoration: solid;
+}
+
 .canvaa {
     text-align: center;
     margin-left: 30%;
