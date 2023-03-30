@@ -9,10 +9,10 @@
     --bg-color: #111;
 }
 body {
-    display: flex;
+    /* display: flex;
     align-items: center;
     justify-content: center;
-    overflow: hidden;
+    overflow: hidden; */
     width: 100vw;
     height: 100vh;
     color: gray;
