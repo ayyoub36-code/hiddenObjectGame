@@ -53,7 +53,39 @@ let itemMedium = document.getElementsByClassName('medium');
                         if (spanItem.getAttribute('name') == ele.getAttribute("name") && spanItem.style.textDecoration !== 'line-through') {
                             spanItem.style.textDecoration = 'line-through';
                             /* calculer le score et enlever les elements du tableau listItems */
-                            score = score +1;
+                            scoreMedium = scoreMedium +1;
+                            document.getElementById('score').innerHTML = 'Score : ' + score + '/10';
+                        }
+                        else if (score == 10 ){
+                            /**afficher bravo ! */
+                            console.log('Bravo');
+                        }
+                    }
+                }
+                /* tableau des items */
+                //const listItems = ["hippocampe", "coeur", "abeille", "ancre", "longue vue", "glace", "sac", "slime", "locomotive", "cloche"];
+            });
+        }
+    }
+
+//image 3
+    let itemHard = document.getElementsByClassName('hard');
+    let scoreHard = 0;
+    for (const i in itemHard) {
+        if (Object.hasOwnProperty.call(itemHard, i)) {
+            let ele = itemHard[i];
+            /** elem clické je recup attribut name je vais dans la listSpan et je raye le span qui a le meme name ! */
+            ele.addEventListener('click', () => {
+                let itemName = ele.getAttribute("name");
+                /* comparer l elem clické avec le span qui porte son nom et rayé*/
+                let listSpan = document.getElementsByTagName('span');
+                for (const key in listSpan) {
+                    if (Object.hasOwnProperty.call(listSpan, key)) {
+                        let spanItem = listSpan[key];
+                        if (spanItem.getAttribute('name') == ele.getAttribute("name") && spanItem.style.textDecoration !== 'line-through') {
+                            spanItem.style.textDecoration = 'line-through';
+                            /* calculer le score et enlever les elements du tableau listItems */
+                            scoreHard = scoreHard +1;
                             document.getElementById('score').innerHTML = 'Score : ' + score + '/10';
                         }
                         else if (score == 10 ){

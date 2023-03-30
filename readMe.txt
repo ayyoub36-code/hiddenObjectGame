@@ -19,3 +19,5 @@ sources : > https://www.cssportal.com/css-clip-path-generator/
 
 
           TODO : musique timer animation +1 ou trouvé sur chaque click le code js => limiter le nb de lignes modal => congrats
+
+          SUPER TODO: ne pas merge trop vite

@@ -136,3 +136,35 @@ body {
     width: 190px;
     height: 170px;
 }
+
+
+.listOfItems {
+    padding: 10px;
+    margin-top: 164px;
+    border: 2px solid rgb(60, 158, 47);
+    border-radius: 10px 10px;
+    width: fit-content;
+    display: inline;
+}
+
+.listOfItems span {
+    padding: 5px;
+    font-weight: bold;
+}
+
+.score {
+    padding: 10px;
+    margin-right: 25px;
+    border: 2px solid rgb(161, 36, 36);
+    border-radius: 10px 10px;
+    width: fit-content;
+    margin-left: 570px;
+    display: inline;
+}
+.congratulation{
+    left: 930px;
+    top: 285px;
+    position: absolute;
+    font-weight:bolder;
+    color: green;
+}
