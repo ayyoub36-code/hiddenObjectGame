@@ -1,17 +1,19 @@
 window.onload = (e) => {
     console.log("page is fully loaded");
 
+
+    /* test réalisé sur toute l'image */
     let firstDiv = document.getElementById('first_picture');
     firstDiv.addEventListener('click', () => {
         console.log("j'ai clické !")
     })
 
+    /* method pour trouver les coordonées de la souris => click */
     function update(e) {
         let x = e.clientX + window.pageXOffset;
         let y = e.clientY + window.pageYOffset;
         console.log("x=" + x + " y=" + y);
     }
-
     firstDiv.onclick = update;
 
     /* find item */
