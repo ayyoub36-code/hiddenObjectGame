@@ -15,7 +15,7 @@ body {
     overflow: hidden;
     width: 100vw;
     height: 100vh;
-    color: #f9524e;
+    color: gray;
     background-color: var(--bg-color);
     font-family: 'tahoma', sans-serif;
   }
@@ -42,7 +42,7 @@ body {
 }
 
 .sidebar a:hover {
-  color: #f1f1f1;
+  color:  #f9524e;
 }
 .sidebar a #mini {
     width: 85%;
@@ -67,13 +67,22 @@ h1{
     font-size: 3em;
     font-weight: normal;
 }
-.home-title span{
+#logo {
+    box-shadow: 10px 5px 5px gray;
+}
+.text_menu{
+    
+    margin-top:  50px;
     position: relative;
     overflow: hidden;
     display: block;
     line-height: 1.2;
 }
-.home-title span::after{
+.text_menu:hover {
+    color:  #f9524e;
+}
+
+.text_menu::after{
     content: '';
     position: absolute;
     top: 0;
@@ -84,7 +93,7 @@ h1{
     animation: a-ltr-after 2s cubic-bezier(.77,0,.18,1) forwards;
     transform: translateX(-101%);
 }
-.home-title span::before{
+.text_menu::before{
     content: '';
     position: absolute;
     top: 0;
@@ -95,12 +104,12 @@ h1{
     animation: a-ltr-before 2s cubic-bezier(.77,0,.18,1) forwards;
     transform: translateX(0);
 }
-.home-title span:nth-of-type(1)::before,
-.home-title span:nth-of-type(1)::after{
+.text_menu:nth-of-type(1)::before,
+.text_menu:nth-of-type(1)::after{
     animation-delay: 1s;
 }
-.home-title span:nth-of-type(2)::before,
-.home-title span:nth-of-type(2)::after{
+.text_menu:nth-of-type(2)::before,
+.text_menu:nth-of-type(2)::after{
     animation-delay: 1.5s;
 }
 @keyframes a-ltr-after{
