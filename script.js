@@ -56,7 +56,7 @@ let itemMedium = document.getElementsByClassName('medium');
                             scoreMedium = scoreMedium +1;
                             document.getElementById('score').innerHTML = 'Score : ' + score + '/10';
                         }
-                        else if (score == 10 ){
+                        else if (scoreMedium == 10 ){
                             /**afficher bravo ! */
                             console.log('Bravo');
                         }
@@ -88,7 +88,7 @@ let itemMedium = document.getElementsByClassName('medium');
                             scoreHard = scoreHard +1;
                             document.getElementById('score').innerHTML = 'Score : ' + score + '/10';
                         }
-                        else if (score == 10 ){
+                        else if (scoreHard == 10 ){
                             /**afficher bravo ! */
                             console.log('Bravo');
                         }
