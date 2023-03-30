@@ -1,15 +1,11 @@
 body {
 
-    /* background: black; */
+    background: black;
     color: white;
     margin: 0;
     padding: 0;
 }
 
-.text-dark_bold{
-    color: black;
-    text-decoration: solid;
-}
 
 .canvaa {
     text-align: center;
@@ -32,7 +28,7 @@ body {
     clip-path: polygon(29% 45%, 39% 45%, 39% 68%, 29% 68%);
     /*background-color: blue;*/
     left: 722px;
-    top: 245px;
+    top: 329px;
     position: absolute;
     width: 190px;
     height: 170px;
@@ -43,7 +39,7 @@ body {
     clip-path: polygon(53% 67%, 60% 64%, 62% 71%, 53% 83%, 42% 71%, 45% 64%);     
     /*background-color: blue;*/
     left: 910px;
-    top: 88px;
+    top: 172px;
     position: absolute;
     width: 190px;
     height: 170px;
@@ -54,7 +50,7 @@ body {
     clip-path: polygon(13% 86%, 23% 86%, 10% 100%, 0% 100%);  
     /*background-color: blue;*/
     left: 742px;
-    top: 62px;
+    top: 146px;
     position: absolute;
     width: 190px;
     height: 170px;
@@ -65,7 +61,7 @@ body {
     clip-path: polygon(46% 52%, 56% 73%, 46% 84%, 37% 70%);
     /*background-color: blue;*/
     left: 1160px;
-    top: 250px;
+    top: 334px;
     position: absolute;
     width: 190px;
     height: 170px;
@@ -78,7 +74,7 @@ body {
     clip-path: polygon(0 96%, 56% 96%, 56% 100%, 0% 100%);
     /*background-color: blue;*/
     left: 1140px;
-    top: 110px;
+    top: 194px;
     position: absolute;
     width: 190px;
     height: 170px;
@@ -90,7 +86,7 @@ body {
     clip-path: polygon(50% 84%, 65% 69%, 65% 84%, 58% 91%);
     /*background-color: blue;*/
     left: 1140px;
-    top: 330px;
+    top: 414px;
     position: absolute;
     width: 190px;
     height: 170px;
@@ -102,7 +98,7 @@ body {
     clip-path: polygon(44% 48%, 47% 56%, 47% 70%, 31% 70%, 31% 48%);  
     /*background-color: blue;*/
     left: 1093px;
-    top: 210px;
+    top: 294px;
     position: absolute;
     width: 190px;
     height: 170px;
@@ -113,7 +109,7 @@ body {
     clip-path: polygon(44% 48%, 46% 56%, 38% 59%, 29% 56%, 31% 48%); 
     /*background-color: blue;*/
     left: 940px;
-    top: 340px;
+    top: 424px;
     position: absolute;
     width: 190px;
     height: 170px;
@@ -124,7 +120,7 @@ body {
     clip-path: polygon(4% 85%, 29% 78%, 29% 100%, 0% 100%);
     /*background-color: blue;*/
     left: 1400px;
-    top: 310px;
+    top: 394px;
     position: absolute;
     width: 190px;
     height: 170px;
@@ -133,9 +129,9 @@ body {
 #bell {
     -webkit-clip-path: polygon(3% 88%, 9% 88%, 12% 100%, 0% 100%);
     clip-path: polygon(3% 88%, 9% 88%, 12% 100%, 0% 100%);
-    background-color: blue;
+    /*background-color: blue;*/
     left: 867px;
-    top: 85px;
+    top: 169px;
     position: absolute;
     width: 190px;
     height: 170px;
