@@ -12,6 +12,10 @@ body {
     width: 60%;
     height: 700px;
     /* border: 1px solid silver; */
+
+}
+
+#first_picture {
     background-image: url('img_game/hidden_object_easy1.jpg');
     background-repeat: no-repeat, repeat;
     background-size: cover
@@ -20,7 +24,7 @@ body {
 #easy_01_id {
     -webkit-clip-path: ellipse(19% 7% at 50% 50%);
     clip-path: ellipse(19% 7% at 50% 50%);
-    /* background-color: blue; */
+    background-color: blue;
     left: 545px;
     top: 599px;
     position: absolute;
@@ -31,7 +35,7 @@ body {
 #easy_02_id {
     -webkit-clip-path: ellipse(19% 7% at 50% 50%);
     clip-path: ellipse(19% 7% at 50% 50%);
-    /* background-color: blue; */
+    background-color: blue;
     left: 1075px;
     top: 429px;
     position: absolute;
@@ -43,6 +47,7 @@ body {
 #easy_03_id {
     -webkit-clip-path: polygon(26% 98%, 88% 84%, 64% 97%, 43% 100%);
     clip-path: polygon(26% 98%, 88% 84%, 64% 97%, 43% 100%);
+    background-color: blue;
     left: 1375px;
     top: 557px;
     position: absolute;
@@ -53,6 +58,7 @@ body {
 #easy_04_id {
     -webkit-clip-path: polygon(61% 73%, 76% 94%, 61% 88%, 36% 89%);
     clip-path: polygon(61% 73%, 76% 94%, 61% 88%, 36% 89%);
+    background-color: blue;
     left: 1095px;
     top: 499px;
     position: absolute;
@@ -64,6 +70,7 @@ body {
 #easy_05_id {
     -webkit-clip-path: polygon(30% 55%, 19% 35%, 17% 14%, 52% 30%, 90% 12%, 78% 51%, 91% 68%, 93% 89%, 82% 96%, 56% 75%, 23% 95%, 11% 85%);
     clip-path: polygon(30% 55%, 19% 35%, 17% 14%, 52% 30%, 90% 12%, 78% 51%, 91% 68%, 93% 89%, 82% 96%, 56% 75%, 23% 95%, 11% 85%);
+    background-color: blue;
     left: 1230px;
     top: 324px;
     position: absolute;
@@ -75,6 +82,7 @@ body {
 #easy_06_id {
     -webkit-clip-path: ellipse(11% 20% at 50% 50%);
     clip-path: ellipse(11% 20% at 50% 50%);
+    background-color: blue;
     left: 855px;
     top: 559px;
     position: absolute;
@@ -85,6 +93,7 @@ body {
 #easy_07_id {
     -webkit-clip-path: circle(28.0% at 50% 50%);
     clip-path: circle(28.0% at 50% 50%);
+    background-color: blue;
     left: 1180px;
     top: 479px;
     position: absolute;
@@ -95,6 +104,7 @@ body {
 #easy_08_id {
     -webkit-clip-path: circle(28.0% at 50% 50%);
     clip-path: circle(28.0% at 50% 50%);
+    background-color: blue;
     left: 565px;
     top: 369px;
     position: absolute;
@@ -105,6 +115,7 @@ body {
 #easy_09_id {
     -webkit-clip-path: circle(28.0% at 50% 50%);
     clip-path: circle(28.0% at 50% 50%);
+    background-color: blue;
     left: 1585px;
     top: 254px;
     position: absolute;
@@ -115,6 +126,7 @@ body {
 #easy_10_id {
     -webkit-clip-path: ellipse(11% 20% at 50% 50%);
     clip-path: ellipse(11% 20% at 50% 50%);
+    background-color: blue;
     left: 930px;
     top: 369px;
     position: absolute;
@@ -145,10 +157,11 @@ body {
     margin-left: 570px;
     display: inline;
 }
-.congratulation{
+
+.congratulation {
     left: 930px;
     top: 285px;
     position: absolute;
-    font-weight:bolder;
+    font-weight: bolder;
     color: green;
 }
