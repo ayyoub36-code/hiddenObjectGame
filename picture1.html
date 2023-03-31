@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="picture1.css">
-     <link rel="stylesheet" href="index.css"> 
+    <link rel="stylesheet" href="index.css">
     <title>Hidden Object Game</title>
 
     <script src="script.js"></script>
@@ -18,7 +18,8 @@
         <a id="menu" href="index.html"> The dog of Baker Street</a>
         <a id="easy" href="picture1.html"> Facile
             <span style="font-size: 15px;">&#11088</span>
-            <image src="img_game/hidden_object_easy1.jpg" style="display:block ;" id="mini" /> <!-- Rappel, les id sont uniques-->
+            <image src="img_game/hidden_object_easy1.jpg" style="display:block ;" id="mini" />
+            <!-- Rappel, les id sont uniques-->
         </a>
         <a id="medium" href="picture2.html"> Moyen
             <span style="font-size: 15px;">&#11088 &#11088</span>
@@ -29,39 +30,44 @@
             <image src="img_game/pic_hard1.jpg" style="display:block ;" id="mini" />
         </a>
         <!--Audio in the side navbar - c'est la partie à récupérer-->
-        <audio id="music" src="audio_files/lofi hip hop mix radio-beat to relaxstudy too[10 min].mp3"  controls style="margin-top: 50px; margin-left: 25px;">
+        <audio id="music" src="audio_files/lofi hip hop mix radio-beat to relaxstudy too[10 min].mp3" controls
+            style="margin-top: 50px; margin-left: 25px;">
         </audio>
     </div>
 
 
-
+    <p id="timer" style="display: inline; float: right;"></p>
     <div style="height: 84px;"></div>
-    <div class="canvaa" id="first_picture">
-        <!-- creer des items => div-->
+        <div class="canvaa" id="first_picture">
+            <!-- creer des items => div-->
+            
+            <div class="easy_01" id="easy_01_id" name="baguette">
+            </div>
+            <div class="easy_01" id="easy_02_id" name="pigeon">
+            </div>
+            <div class="easy_01" id="easy_03_id" name="couteau">
+            </div>
+            <div class="easy_01" id="easy_04_id" name="peau_banane">
+            </div>
+            <div class="easy_01" id="easy_05_id" name="papillon_vert">
+            </div>
+            <div class="effet_3d" id="congrats">Bravo !</div>
+            <div class="easy_01" id="easy_06_id" name="ketchup">
+            </div>
+            <div class="easy_01" id="easy_07_id" name="donat">
+            </div>
+            <div class="easy_01" id="easy_08_id" name="coquillage">
+            </div>
+            <div class="easy_01" id="easy_09_id" name="cloche">
+            </div>
+            <div class="easy_01" id="easy_10_id" name="glace">
+            </div>
 
-        <div class="easy_01" id="easy_01_id" name="baguette">
-        </div>
-        <div class="easy_01" id="easy_02_id" name="pigeon">
-        </div>
-        <div class="easy_01" id="easy_03_id" name="couteau">
-        </div>
-        <div class="easy_01" id="easy_04_id" name="peau_banane">
-        </div>
-        <div class="easy_01" id="easy_05_id" name="papillon_vert">
-        </div>
-        <div class="effet_3d" id="congrats">Bravo !</div>
-        <div class="easy_01" id="easy_06_id" name="ketchup">
-        </div>
-        <div class="easy_01" id="easy_07_id" name="donat">
-        </div>
-        <div class="easy_01" id="easy_08_id" name="coquillage">
-        </div>
-        <div class="easy_01" id="easy_09_id" name="cloche">
-        </div>
-        <div class="easy_01" id="easy_10_id" name="glace">
         </div>
 
-    </div>
+        
+
+
     <div style="display: block; margin-top: 50px;">
         <div class="score" id="score">Score : 0/10</div>
         <div class="listOfItems">
@@ -70,6 +76,7 @@
             <span name="ketchup">Ketchup </span> <span name="glace">Glace </span> <span name="donat">Donut </span>
             <span name="coquillage">Coquillage </span> <span name="cloche">Cloche</span>
         </div>
+
     </div>
 
 </body>

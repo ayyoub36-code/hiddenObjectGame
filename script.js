@@ -1,5 +1,7 @@
-window.onload = (e) => {console.log("page is fully loaded");
-    document.getElementById("music").volume = 0.1;    
+window.onload = (e) => {
+    let congrats = document.getElementById('congrats');
+    console.log("page is fully loaded");
+    document.getElementById("music").volume = 0.1;
     let score = 0;
     let itemsEasy = document.getElementsByClassName('easy_01');/* tableau items les noms des items à trouver*/
     score = findItem(itemsEasy, score);
@@ -22,7 +24,7 @@ window.onload = (e) => {console.log("page is fully loaded");
                                 document.getElementById('score').innerHTML = 'Score : ' + score + '/10';
                             }
                             else if (score == 10) { /**afficher bravo ! */
-                                document.getElementById('congrats').style.visibility = 'visible';
+                            congrats.style.visibility = 'visible';
                             }
                         }
                     }
@@ -31,4 +33,23 @@ window.onload = (e) => {console.log("page is fully loaded");
         }
         return score;
     }
+
+    const departMinutes = 3
+    let temps = departMinutes * 60
+    const timerElement = document.getElementById("timer")
+    setInterval(() => {
+        let minutes = parseInt(temps / 60, 10)
+        let secondes = parseInt(temps % 60, 10)
+        minutes = minutes < 10 ? "0" + minutes : minutes
+        secondes = secondes < 10 ? "0" + secondes : secondes
+        timerElement.innerText = `${minutes}:${secondes}`
+        temps = temps <= 0 ? 0 : temps - 1
+        if(temps == 0){
+            congrats.innerHTML = "PERDU !";
+            congrats.style.color = "red";
+            congrats.style.visibility = 'visible';
+        }
+    }, 1000);
+    
 }
+
