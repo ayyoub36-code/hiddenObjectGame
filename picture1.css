@@ -24,8 +24,8 @@ body {
 #easy_01_id {
     -webkit-clip-path: ellipse(19% 7% at 50% 50%);
     clip-path: ellipse(19% 7% at 50% 50%);
-    background-color: blue;
-    left: 545px;
+    /* background-color: blue; */
+    left: 560px;
     top: 599px;
     position: absolute;
     width: 190px;
@@ -35,8 +35,8 @@ body {
 #easy_02_id {
     -webkit-clip-path: ellipse(19% 7% at 50% 50%);
     clip-path: ellipse(19% 7% at 50% 50%);
-    background-color: blue;
-    left: 1075px;
+    /* background-color: blue; */
+    left: 1090px;
     top: 429px;
     position: absolute;
     width: 160px;
@@ -47,8 +47,8 @@ body {
 #easy_03_id {
     -webkit-clip-path: polygon(26% 98%, 88% 84%, 64% 97%, 43% 100%);
     clip-path: polygon(26% 98%, 88% 84%, 64% 97%, 43% 100%);
-    background-color: blue;
-    left: 1375px;
+    /* background-color: blue; */
+    left: 1390px;
     top: 557px;
     position: absolute;
     width: 180px;
@@ -58,8 +58,8 @@ body {
 #easy_04_id {
     -webkit-clip-path: polygon(61% 73%, 76% 94%, 61% 88%, 36% 89%);
     clip-path: polygon(61% 73%, 76% 94%, 61% 88%, 36% 89%);
-    background-color: blue;
-    left: 1095px;
+    /* background-color: blue; */
+    left: 1110px;
     top: 499px;
     position: absolute;
     width: 180px;
@@ -70,8 +70,8 @@ body {
 #easy_05_id {
     -webkit-clip-path: polygon(30% 55%, 19% 35%, 17% 14%, 52% 30%, 90% 12%, 78% 51%, 91% 68%, 93% 89%, 82% 96%, 56% 75%, 23% 95%, 11% 85%);
     clip-path: polygon(30% 55%, 19% 35%, 17% 14%, 52% 30%, 90% 12%, 78% 51%, 91% 68%, 93% 89%, 82% 96%, 56% 75%, 23% 95%, 11% 85%);
-    background-color: blue;
-    left: 1230px;
+    /* background-color: blue; */
+    left: 1245px;
     top: 324px;
     position: absolute;
     width: 50px;
@@ -82,8 +82,8 @@ body {
 #easy_06_id {
     -webkit-clip-path: ellipse(11% 20% at 50% 50%);
     clip-path: ellipse(11% 20% at 50% 50%);
-    background-color: blue;
-    left: 855px;
+    /* background-color: blue; */
+    left: 870px;
     top: 559px;
     position: absolute;
     width: 130px;
@@ -93,8 +93,8 @@ body {
 #easy_07_id {
     -webkit-clip-path: circle(28.0% at 50% 50%);
     clip-path: circle(28.0% at 50% 50%);
-    background-color: blue;
-    left: 1180px;
+    /* background-color: blue; */
+    left: 1195px;
     top: 479px;
     position: absolute;
     width: 100px;
@@ -104,8 +104,8 @@ body {
 #easy_08_id {
     -webkit-clip-path: circle(28.0% at 50% 50%);
     clip-path: circle(28.0% at 50% 50%);
-    background-color: blue;
-    left: 565px;
+    /* background-color: blue; */
+    left: 580px;
     top: 369px;
     position: absolute;
     width: 90px;
@@ -115,8 +115,8 @@ body {
 #easy_09_id {
     -webkit-clip-path: circle(28.0% at 50% 50%);
     clip-path: circle(28.0% at 50% 50%);
-    background-color: blue;
-    left: 1585px;
+    /* background-color: blue; */
+    left: 1600px;
     top: 254px;
     position: absolute;
     width: 80px;
@@ -126,8 +126,8 @@ body {
 #easy_10_id {
     -webkit-clip-path: ellipse(11% 20% at 50% 50%);
     clip-path: ellipse(11% 20% at 50% 50%);
-    background-color: blue;
-    left: 930px;
+    /* background-color: blue; */
+    left: 945px;
     top: 369px;
     position: absolute;
     width: 150px;

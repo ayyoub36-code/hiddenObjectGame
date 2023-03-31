@@ -1,8 +1,8 @@
 window.onload = (e) => {
     console.log("page is fully loaded");
     let score = 0;
-    let items = document.getElementsByClassName('easy_01');/* tableau items les noms des items à trouver*/
-    score = findItem(items, score);
+    let itemsEasy = document.getElementsByClassName('easy_01');/* tableau items les noms des items à trouver*/
+    score = findItem(itemsEasy, score);
     let itemMedium = document.getElementsByClassName('medium');
     score = findItem(itemMedium, score);
     let itemHard = document.getElementsByClassName('hard');

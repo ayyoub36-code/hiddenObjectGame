@@ -25,7 +25,7 @@ body {
 #bourse {
     -webkit-clip-path: polygon(0 74%, 14% 74%, 14% 100%, 0% 100%);
     clip-path: polygon(0 74%, 14% 74%, 14% 100%, 0% 100%);
-    background-color: blue;
+    /* background-color: blue; */
     left: 732px;
     top: 250px;
     position: absolute;
@@ -36,7 +36,7 @@ body {
 #muffin {
     -webkit-clip-path: polygon(25% 80%, 36% 86%, 32% 100%, 18% 100%, 14% 87%);
     clip-path: polygon(25% 80%, 36% 86%, 32% 100%, 18% 100%, 14% 87%);
-    background-color: blue;
+    /* background-color: blue; */
     left: 1340px;
     top: 365px;
     position: absolute;
@@ -47,7 +47,7 @@ body {
 #lune {
     -webkit-clip-path: polygon(45% 25%, 44% 17%, 38% 8%, 53% 15%, 54% 32%, 43% 42%, 28% 37%, 39% 32%);
     clip-path: polygon(45% 25%, 44% 17%, 38% 8%, 53% 15%, 54% 32%, 43% 42%, 28% 37%, 39% 32%);
-    background-color: blue;
+    /* background-color: blue; */
     left: 715px;
     top: 250px;
     position: absolute;
@@ -58,7 +58,7 @@ body {
 #brosse {
     -webkit-clip-path: polygon(14% 65%, 14% 60%, 37% 60%, 37% 74%, 14% 74%, 14% 70%, 0% 70%, 0 65%);
     clip-path: polygon(14% 65%, 14% 60%, 37% 60%, 37% 74%, 14% 74%, 14% 70%, 0% 70%, 0 65%);
-    background-color: blue;
+    /* background-color: blue; */
     left: 1325px;
     top: 520px;
     position: absolute;
@@ -71,7 +71,7 @@ body {
 #note {
     -webkit-clip-path: polygon(0 80%, 32% 80%, 32% 100%, 0% 100%);
     clip-path: polygon(0 80%, 32% 80%, 32% 100%, 0% 100%);
-    background-color: blue;
+    /* background-color: blue; */
     left: 1560px;
     top: 130px;
     position: absolute;
@@ -83,7 +83,7 @@ body {
 #plume {
     -webkit-clip-path: polygon(0 56%, 13% 56%, 13% 100%, 0% 100%);
     clip-path: polygon(0 56%, 13% 56%, 13% 100%, 0% 100%);
-    background-color: blue;
+    /* background-color: blue; */
     left: 1575px;
     top: 370px;
     position: absolute;
@@ -95,7 +95,7 @@ body {
 #phare {
     -webkit-clip-path: polygon(0 56%, 13% 56%, 13% 100%, 0% 100%);
     clip-path: polygon(0 56%, 13% 56%, 13% 100%, 0% 100%);
-    background-color: blue;
+    /* background-color: blue; */
     left: 970px;
     top: 190px;
     position: absolute;
@@ -106,7 +106,7 @@ body {
 #orange {
     -webkit-clip-path: polygon(0 96%, 13% 96%, 13% 100%, 0% 100%);
     clip-path: polygon(0 96%, 13% 96%, 13% 100%, 0% 100%);
-    background-color: blue;
+    /* background-color: blue; */
     left: 1220px;
     top: 260px;
     position: absolute;
@@ -117,7 +117,7 @@ body {
 #libellulle {
     -webkit-clip-path: polygon(43% 16%, 63% 16%, 71% 25%, 53% 26%, 53% 44%, 50% 44%, 50% 25%, 34% 25%);
     clip-path: polygon(43% 16%, 63% 16%, 71% 25%, 53% 26%, 53% 44%, 50% 44%, 50% 25%, 34% 25%);
-    background-color: blue;
+    /* background-color: blue; */
     left: 1330px;
     top: 315px;
     position: absolute;
@@ -128,7 +128,7 @@ body {
 #appareil_photo {
     -webkit-clip-path: polygon(0 76%, 25% 76%, 25% 100%, 0% 100%);
     clip-path: polygon(0 76%, 25% 76%, 25% 100%, 0% 100%);
-    background-color: blue;
+    /* background-color: blue; */
     left: 1240px;
     top: 410px;
     position: absolute;
