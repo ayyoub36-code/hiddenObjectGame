@@ -145,6 +145,7 @@ body {
     border-radius: 10px 10px;
     width: fit-content;
     display: inline;
+    box-shadow: 0 4px 8px 0 rgba(117, 114, 114, 0.2), 0 6px 20px 0 rgba(107, 104, 104, 0.19);
 }
 
 .listOfItems span {
@@ -160,6 +161,7 @@ body {
     width: fit-content;
     margin-left: 570px;
     display: inline;
+    box-shadow: 0 4px 8px 0 rgba(117, 114, 114, 0.2), 0 6px 20px 0 rgba(107, 104, 104, 0.19);
 }
 
 .congratulation {
@@ -168,4 +170,42 @@ body {
     position: absolute;
     font-weight: bolder;
     color: green;
+    visibility: hidden;
+}
+
+
+
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.effet_3d {
+    left: 930px;top: 285px;
+    position: absolute;
+    font-weight: bolder;
+    color: green;
+    visibility: hidden;
+    --couleur: 0, 0, 0;
+    margin: 2rem auto;
+    display: flex;
+    justify-content: center;
+    font-family: 'Exo';
+    color: green;
+    text-shadow:
+        0 1px 0 #ccc,
+        0 2px 0 #acacac,
+        0 3px 0 #a0a0a0,
+        0 4px 0 #9b9a9a,
+        0 5px 0 #888787,
+        0 6px 1px rgba(var(--couleur), .1),
+        0 0 5px rgba(var(--couleur), .1),
+        0 1px 3px rgba(var(--couleur), .3),
+        0 3px 5px rgba(var(--couleur), .3),
+        0 5px 10px rgba(var(--couleur), .25),
+        0 10px 10px rgba(var(--couleur), .2),
+        0 20px 20px rgba(var(--couleur), .15);
+    font-size: calc(100vw / 10)
 }
