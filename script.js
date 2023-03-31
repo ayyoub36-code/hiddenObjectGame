@@ -1,5 +1,5 @@
-window.onload = (e) => {
-    console.log("page is fully loaded");
+window.onload = (e) => {console.log("page is fully loaded");
+    document.getElementById("music").volume = 0.1;    
     let score = 0;
     let itemsEasy = document.getElementsByClassName('easy_01');/* tableau items les noms des items à trouver*/
     score = findItem(itemsEasy, score);
