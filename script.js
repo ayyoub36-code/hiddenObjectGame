@@ -54,7 +54,7 @@ let itemMedium = document.getElementsByClassName('medium');
                             spanItem.style.textDecoration = 'line-through';
                             /* calculer le score et enlever les elements du tableau listItems */
                             scoreMedium = scoreMedium +1;
-                            document.getElementById('score').innerHTML = 'Score : ' + score + '/10';
+                            document.getElementById('score').innerHTML = 'Score : ' + scoreMedium + '/10';
                         }
                         else if (scoreMedium == 10 ){
                             /**afficher bravo ! */
@@ -86,7 +86,7 @@ let itemMedium = document.getElementsByClassName('medium');
                             spanItem.style.textDecoration = 'line-through';
                             /* calculer le score et enlever les elements du tableau listItems */
                             scoreHard = scoreHard +1;
-                            document.getElementById('score').innerHTML = 'Score : ' + score + '/10';
+                            document.getElementById('score').innerHTML = 'Score : ' + scoreHard + '/10';
                         }
                         else if (scoreHard == 10 ){
                             /**afficher bravo ! */
